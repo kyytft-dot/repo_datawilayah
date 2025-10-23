@@ -35,17 +35,6 @@ CREATE TABLE `m_desa_kelurahan` (
   `KETERANGAN` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Dumping data for table `m_desa_kelurahan`
---
-
-INSERT INTO `m_desa_kelurahan` (`ID`, `KODE_DESA`, `NAMA_DESA`, `KECAMATAN`, `KETERANGAN`) VALUES
-(1, 'DS001', 'Desa Sukamaju', 'Ciburial', 'Wilayah perbukitan'),
-(2, 'DS002', 'Desa Mekarjaya', 'Cimahi Utara', 'Wilayah padat penduduk'),
-(3, 'KL001', 'Kelurahan Cipageran', 'Cimahi Utara', 'Wilayah perkotaan'),
-(4, 'KL002', 'Kelurahan Pasirkaliki', 'Cimahi Tengah', 'Wilayah pusat kota');
-
---
 -- Indexes for dumped tables
 --
 
